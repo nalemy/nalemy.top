@@ -206,7 +206,7 @@ widgets:
         # Email address for the Gravatar
         # gravatar: 
         # URL or path for the follow button
-        follow_link: https://www.luogu.com.cn/user/894526
+        follow_link: https://www.luogu.com.cn/user/360214
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
@@ -248,9 +248,9 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            洛谷: https://www.luogu.com.cn/user/894526
-            Codeforces: https://codeforces.com/profile/nalemy
-            ATCoder: https://atcoder.jp/users/nalemy
+            吃人的大嘴龙: https://www.slongod.top
+            凌给老师: https://llingy.top
+            玩原神的: https://www.cnblogs.com/xlpg-0713
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
