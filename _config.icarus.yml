@@ -17,7 +17,7 @@ head:
         # when there is not enough space to display full name
         short_name: NB
         # The start URL of the web application
-        start_url: https://nalemy.github.io
+        start_url: https://nalemy.top
         # The default theme color for the application
         theme_color: 
         # A placeholder background color for the application page to display
@@ -112,9 +112,9 @@ navbar:
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+        # Download on GitHub:
+            # icon: fab fa-github
+            # url: https://github.com/ppoffice/hexo-theme-icarus
 # Page footer configurations
 footer:
     # Copyright text
@@ -144,7 +144,7 @@ article:
     # Whether to show estimated article reading time
     readtime: true
     # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
-    update_time: true
+    update_time: false
     # Article licensing block
     licenses:
         Creative Commons:
@@ -296,7 +296,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
