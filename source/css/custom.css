@@ -1,0 +1,25 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.card, nav.navbar, footer.footer {
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+span.tag {
+    background-color: rgba(245, 245, 245, 0.5)
+}
+hr {
+    height: 1.5px;
+    background-color: rgba(150, 150, 150, 0.9);
+}
+.menu-list a:hover, a.navbar-item:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.level-left .level-item, .level-start .level-item {
+    color: #3a3a3a
+}
+.menu-label, .level-right .level-item, .level-end .level-item, article.media .media-content {
+    color: #5a5a5a;
+}

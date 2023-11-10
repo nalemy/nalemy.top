@@ -112,13 +112,13 @@ navbar:
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        # Download on GitHub:
-            # icon: fab fa-github
-            # url: https://github.com/ppoffice/hexo-theme-icarus
+        GitHub repo:
+            icon: fab fa-github
+            url: https://github.com/nalemy/nalemy.top
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright: © 2023
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -127,9 +127,9 @@ footer:
         Attribution 4.0 International:
             icon: fab fa-creative-commons-by
             url: https://creativecommons.org/licenses/by/4.0/
-        Download on GitHub:
+        GitHub Repository:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/nalemy/nalemy.top
 # Article related configurations
 article:
     # Code highlight settings
