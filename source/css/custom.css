@@ -5,17 +5,17 @@ body {
 }
 div.card, nav.navbar, footer.footer {
     backdrop-filter: blur(2px);
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 span.tag {
-    background-color: rgba(245, 245, 245, 0.5)
+    background-color: rgba(245, 245, 245, 0.6);
 }
 hr {
     height: 1.5px;
     background-color: rgba(150, 150, 150, 0.9);
 }
 .menu-list a:hover, a.navbar-item:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 .level-left .level-item, .level-start .level-item {
     color: #3a3a3a
