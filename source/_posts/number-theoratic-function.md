@@ -65,7 +65,7 @@ $$
 
 $\varphi*1=\mathrm{id}$，也即 $\sum_{d|n}\varphi(d)=n$。
 
-证明：考虑构造 $x\in[1,n]$ 到 $\{(d,x):d|x,\gcd(x,d)=1\}$ 的映射
+证明：考虑构造 $x\in[1,n]$ 到 $\{(d,x):d|n,\gcd(x,d)=1\}$ 的映射
 
 $$f:x\mapsto\left(\frac n{\gcd(x,n)},\frac x{\gcd(x,n)}\right)$$
 

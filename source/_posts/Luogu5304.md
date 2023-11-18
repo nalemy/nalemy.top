@@ -1,5 +1,5 @@
 ---
-title: "[GXOI/GZOI2019] 旅行者（TODO）"
+title: "[GXOI/GZOI2019] 旅行者"
 categories:
   - 题目
 date: 2023-11-15 21:11:45
