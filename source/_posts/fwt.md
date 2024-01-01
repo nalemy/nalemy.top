@@ -58,7 +58,7 @@ $$
 
 $\left\lfloor\frac i{2^j}\right\rfloor\bmod2$ 即 $i$ 二进制下第 $j$ 位上的数字。
 
-通过观察不难发现，$T_{i,j}$ 的值即为 $\mathrm{popcount}(i\land j)$，其中 $i\land j$ 表示按位与。
+通过观察不难发现，$T_{i,j}$ 的值即为 $(-1)^{\mathrm{popcount}(i\operatorname{AND}j)}$，其中 $i\operatorname{AND}j$ 表示按位与，$\mathrm{popcount}$ 表示二进制下 $1$ 的个数。
 
 更进一步地，按照 $i,j$ 的二进制下第 $m-1$ 位分类讨论，可以将 $T_{i,j}$ 划分为四个方阵。可以看出 $\mathcal F_m$ 的矩阵表示 $T$ 与 $\mathcal F_{m-1}$ 的矩阵表示 $A$ 存在一定关系：
 
@@ -84,5 +84,9 @@ $$
 $$
 T^{-1}=\frac12\begin{bmatrix}A^{-1}&A^{-1}\\A^{-1}&-A^{-1}\end{bmatrix}
 $$
+
+此时
+
+$$T_{i,j}=\frac{(-1)^{\mathrm{popcount}(i\operatorname{AND}j)}}{2^n}$$
 
 也即得到了 $\mathcal F$ 的逆变换。
