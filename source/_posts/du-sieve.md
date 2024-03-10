@@ -8,7 +8,7 @@ tags:
 ---
 对于数论函数 $f$ 定义前缀和 $S_f(n)=\sum_{i=1}^nf(i)$。
 
-如果有两个数论函数 $f,g$ 满足我们可以快速计算 $S_g$ 和 $S_{f*g}$，可以通过杜教筛快速求出 $S_f$。
+如果有两个数论函数 $f,g$ 满足我们可以快速计算 $S_g$ 和 $S_{f*g}$，可以通过杜教筛快速求出 $S_f(n)$。
 
 $$
 \begin{aligned}
@@ -21,7 +21,7 @@ $$
 于是有
 
 $$
-S_f(n)=S_{f*g}(n)-\sum_{d=2}^ng(d)S_f(\left\lfloor\frac nd\right\rfloor)
+g(1)S_f(n)=S_{f*g}(n)-\sum_{d=2}^ng(d)S_f(\left\lfloor\frac nd\right\rfloor)
 $$
 
 直接利用该式记忆化地递归求解，因为
@@ -35,7 +35,7 @@ $$
 $$
 \begin{aligned}
 &O\left(\sum_{i=1}^{\sqrt n}\sqrt i+\sum_{i=1}^{\sqrt n}\sqrt\frac ni\right)\\
-=&O\left(\int_0^{\sqrt n}\sqrt x\mathrm dx+\int_0^{\sqrt n}\sqrt\frac ni\mathrm dx\right)\\
+=&O\left(\int_0^{\sqrt n}\sqrt x\mathrm dx+\int_0^{\sqrt n}\sqrt\frac nx\mathrm dx\right)\\
 =&O\left(\left.x^{\frac32}\right|_0^{\sqrt n}+\left.\sqrt{nx}\right|_0^{\sqrt n}\right)\\
 =&O\left(n^\frac34\right)
 \end{aligned}
